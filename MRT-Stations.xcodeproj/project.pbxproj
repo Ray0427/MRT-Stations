@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		71B5435B1CDC75280091E16D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5435A1CDC75280091E16D /* AppDelegate.swift */; };
-		71B5435D1CDC75280091E16D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5435C1CDC75280091E16D /* ViewController.swift */; };
 		71B543601CDC75280091E16D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B5435E1CDC75280091E16D /* Main.storyboard */; };
 		71B543621CDC75280091E16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B543611CDC75280091E16D /* Assets.xcassets */; };
 		71B543651CDC75280091E16D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B543631CDC75280091E16D /* LaunchScreen.storyboard */; };
+		71B5436D1CDC7E110091E16D /* MRTListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5436C1CDC7E110091E16D /* MRTListTableViewController.swift */; };
+		71B5436F1CDC83750091E16D /* MRTStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B5436E1CDC83750091E16D /* MRTStationViewController.swift */; };
+		71B543711CDC849E0091E16D /* MRTStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B543701CDC849E0091E16D /* MRTStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71B543571CDC75280091E16D /* MRT-Stations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRT-Stations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B5435A1CDC75280091E16D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71B5435C1CDC75280091E16D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71B5435F1CDC75280091E16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71B543611CDC75280091E16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B543641CDC75280091E16D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B543661CDC75280091E16D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B5436C1CDC7E110091E16D /* MRTListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTListTableViewController.swift; sourceTree = "<group>"; };
+		71B5436E1CDC83750091E16D /* MRTStationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTStationViewController.swift; sourceTree = "<group>"; };
+		71B543701CDC849E0091E16D /* MRTStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				71B5435A1CDC75280091E16D /* AppDelegate.swift */,
-				71B5435C1CDC75280091E16D /* ViewController.swift */,
+				71B5436C1CDC7E110091E16D /* MRTListTableViewController.swift */,
+				71B5436E1CDC83750091E16D /* MRTStationViewController.swift */,
 				71B5435E1CDC75280091E16D /* Main.storyboard */,
 				71B543611CDC75280091E16D /* Assets.xcassets */,
 				71B543631CDC75280091E16D /* LaunchScreen.storyboard */,
 				71B543661CDC75280091E16D /* Info.plist */,
+				71B543701CDC849E0091E16D /* MRTStation.swift */,
 			);
 			path = "MRT-Stations";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B5435D1CDC75280091E16D /* ViewController.swift in Sources */,
+				71B5436D1CDC7E110091E16D /* MRTListTableViewController.swift in Sources */,
 				71B5435B1CDC75280091E16D /* AppDelegate.swift in Sources */,
+				71B543711CDC849E0091E16D /* MRTStation.swift in Sources */,
+				71B5436F1CDC83750091E16D /* MRTStationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
