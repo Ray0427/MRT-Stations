@@ -1,4 +1,10 @@
 # MRT-Stations
+##Require
+- cocoaPod
+- objectMapper
+
+## Screen Shot
+
 ### ListView
 <br>
 <img src="/img/ListViewScreenShot.png" width=250>
