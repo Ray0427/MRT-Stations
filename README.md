@@ -1,6 +1,6 @@
 # MRT-Stations
 ListView
-![listView screen shot](/image/ListViewScreenShot.png)
+![listView screen shot](/img/ListViewScreenShot.png)
 StationView
-![station screen shot](/image/StationViewScreenShot1.png)
-![station screen shot](/image/StationViewScreenShot2.png)
+![station screen shot](/img/StationViewScreenShot1.png)
+![station screen shot](/img/StationViewScreenShot2.png)
